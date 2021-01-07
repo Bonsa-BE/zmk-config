@@ -18,15 +18,15 @@
 
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  Q  |  W  |  E  |  R  |  T   |   |  Y  |  U   |  I  |  O  |  P  |
-// |  A  |  S  |  D  |  F  |  G   |   |  H  |  J   |  K  |  L  |  ;  |
-// |  Z  |  X  |  C  |  V  |  B   |   |  N  |  M   |  ,  |  .  |  /  |
-//             | GUI | NAV | SHFT |   | SPC | SYM  | ALT |
+// |  Q  |  W  |  F  |  P  |  B   |   |  J  |  L   |  U  |  Y  |  ;  |
+// |  A  |  R  |  S  |  T  |  G   |   |  M  |  N   |  E  |  I  |  O  |
+// |  Z  |  X  |  C  |  D  |  V   |   |  K  |  H   |  ,  |  .  |  /  |
+//             | CTRL| NAV | BSPC |   | SPC | SYM  | ALT |
                         bindings = <
-   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I    &kp O   &kp P
-   &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K    &kp L   &kp SCLN
-   &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp CMMA &kp DOT &kp FSLH
-          &kp LGUI &mo 1 &kp LSFT   &kp SPC &mo 2 &kp RALT
+   &kp Q &kp W &kp F &kp P &kp B    &kp J &kp L  &kp U    &kp Y   &kp SCLN
+   &kp A &kp R &kp S &kp T &kp G    &kp M &kp N  &kp E    &kp I   &kp O
+   &kp Z &kp X &kp C &kp D &kp V    &kp K &kp H  &kp CMMA &kp DOT &kp FSLH
+          &kp LCTRL &mo 1 &kp BSPC  &kp SPC  &kp RET  &mo 2
                         >;
                 };
                 nav_layer {
@@ -53,7 +53,7 @@
    &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT    &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN
    &trans    &trans    &trans    &trans    &trans      &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE
    &trans    &trans    &trans    &trans    &trans      &trans    &trans   &trans   &trans   &kp BSLH
-                       &kp LGUI  &trans    &kp SPC     &kp RET   &trans   &kp RALT
+                       &kp LGUI  &trans    &trans      &trans    &trans   &trans
                         >;
                 };
               };
