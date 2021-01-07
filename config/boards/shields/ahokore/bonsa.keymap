@@ -31,14 +31,14 @@
                 };
                 nav_layer {
 // -----------------------------------------------------------------------------------------
-// |BTCLR|     | ESC |  ~   |     |   | TAB | HOME |  UP  | END | DEL  |
+// |BTCLR|     | ESC |  ~   |     |   | TAB | HOME |  END | DEL | DEL  |
 // | BT1 | GUI | ALT | CTRL | NUM |   | LEFT| DOWN |  UP  | RGT | BKSP |
 // | BT2 |     |     |      |     |   |  \  | ENT  |      |     |      |
 //             |     |      |     |   |     |      |      |
                         bindings = <
-   &bt BT_CLR   &trans  &kp ESC  &kp TILD &trans     &kp TAB  &kp HOME &kp UARW &kp END  &kp DEL
-   &bt BT_SEL 0 &kp GUI &kp RALT &kp LCTL &mo 3      &kp LARW &kp DARW &kp UARW &kp RARW &kp BKSP
-   &bt BT_SEL 1 &trans  &trans   &trans   &trans     &kp BSLH &kp RET  &trans   &trans    &trans
+   &bt BT_CLR   &trans  &kp ESC  &kp TILD &trans     &kp TAB  &kp HOME &kp END &kp DEL  &kp DEL
+   &bt BT_SEL 0 &kp GUI &kp RALT &kp LCTL &mo 3      &kp LEFT &kp DOWN &kp UP  &kp RIGHT &kp BKSP
+   &bt BT_SEL 1 &trans  &trans   &trans   &trans     &kp BSLH &kp RET  &trans  &trans    &trans
                         &trans   &trans   &trans     &trans   &trans   &trans
                         >;
                 };
