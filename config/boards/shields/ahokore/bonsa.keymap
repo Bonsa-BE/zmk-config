@@ -12,6 +12,10 @@
 #define nav_layer   1
 #define sym_layer   2
 
+&mt {
+    tapping_term_ms = <150>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
