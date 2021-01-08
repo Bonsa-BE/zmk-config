@@ -24,7 +24,7 @@
 
                         bindings = <
    &kp Q &kp W &kp F &kp P        &kp B         &kp J &kp L         &kp U      &kp Y   &kp SCLN
-   &kp A &kp R &kp S &mt LSHIFT T &kp G         &kp M &mt RSHIFT N  &kp E      &kp I   &kp O
+   &kp A &kp R &kp S &mt LSHFT T  &kp G         &kp M &mt RSHFT N   &kp E      &kp I   &kp O
    &kp Z &kp X &kp C &kp D        &kp V         &kp K &kp H         &kp COMMA  &kp DOT &kp FSLH
           &kp LCTRL &kp LGUI &lt 1 BSPC         &lt 2 SPC &kp RET &kp RALT
                         >;
