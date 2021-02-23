@@ -34,7 +34,7 @@
                         bindings = <
    &bt BT_CLR   &trans  &kp ESC  &kp TILD &trans      &kp TAB   &kp HOME  &kp END     &kp DEL        &kp DEL
    &bt BT_SEL 0 &trans  &kp RALT &trans   &trans      &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT      &kp BKSP
-   &bt BT_SEL 1 &trans  &trans   &trans   &trans      &kp TAB   &kp PSCRN &kp K_MUTE  &kp K_VOL_UP   &kp K_VOL_DN
+   &bt BT_SEL 1 &trans  &trans   &trans   &trans      &kp TAB   &kp PSCRN &kp C_MUTE  &kp C_VOL_UP   &kp C_VOL_DN
                         &trans   &trans   &trans      &trans   &trans   &trans
                         >;
                 };
